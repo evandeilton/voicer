@@ -123,7 +123,7 @@ from voicer import voicer
 voicer(
     text="Hello from Jupyter!",
     voice_id="JBFqnCBsd6RMkjVDRZzb",
-    model_id="eleven_multilingual_v2"
+    model_id="eleven_flash_v2_5"
 )
 ```
 
@@ -144,7 +144,7 @@ print(voice_info)
 Voicer also provides a CLI for converting text to speech. For example, to convert a text file:
 
 ```bash
-python voicer.py --input input/sample.txt --voice JBFqnCBsd6RMkjVDRZzb --model eleven_multilingual_v2 --play
+python voicer.py --input input/sample.txt --voice JBFqnCBsd6RMkjVDRZzb --model eleven_flash_v2_5 --play
 ```
 
 Alternatively, to convert a text string:
@@ -180,7 +180,7 @@ Customize the voice, model, and output format by passing parameters to the `Text
 ```python
 processor = TextToSpeechProcessor(
     voice_id="custom_voice_id",
-    model_id="eleven_multilingual_v2",
+    model_id="eleven_flash_v2_5",
     output_format="mp3_44100_128"
 )
 ```
