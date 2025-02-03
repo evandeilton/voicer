@@ -1,8 +1,0 @@
-README.md
-setup.py
-voicer.egg-info/PKG-INFO
-voicer.egg-info/SOURCES.txt
-voicer.egg-info/dependency_links.txt
-voicer.egg-info/entry_points.txt
-voicer.egg-info/requires.txt
-voicer.egg-info/top_level.txt
